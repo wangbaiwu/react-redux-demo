@@ -13,6 +13,8 @@ import {
 import reducers from './reducer'
 import Auth from './auth'
 import Dashboard from './dashboard'
+import './config'
+import 'antd-mobile/dist/antd-mobile.css'
 
 const store=createStore(reducers,compose(
 		applyMiddleware(thunk),
